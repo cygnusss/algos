@@ -47,9 +47,13 @@ class Board(object):
           return True
       
       return False
-
+    
+    def hasDiagonalConflicts(self, row, column):
+      True
 
 test = Board(4)
-test.printBoard()
 
-print('has row conflits:', test.hasAnyRowConflicts(1))
+test.placeQueen(0, 1)
+test.placeQueen(1, 1)
+
+test.printBoard()
