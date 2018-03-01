@@ -1,2 +1,2 @@
 # algos
-A warehouse of algorithms
+just me enjoying python haha
